@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "food_type",
+          "type": "AMAZON.Food"
+        }
+      ],
+      "intent": "RestaurantSearchIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "user_address",
+          "type": "AMAZON.PostalAddress"
+        }
+      ],
+      "intent": "UserAddressIntent"
+    },    
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
