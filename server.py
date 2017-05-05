@@ -49,7 +49,7 @@ def restaurantListToSpeech(restaurantList):
     lastTerm = restaurantList[-1]['name']
     speech = ''
 
-    for restaurant in restaurantList: 
+    for restaurant in restaurantList[:-1]: 
         speech += restaurant['name'] + ', '
 
     speech += 'and ' + lastTerm + ' all deliver to your location!'
