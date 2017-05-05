@@ -3,7 +3,10 @@ RestaurantSearchIntent what are some restaurants that deliver {food_type} near m
 RestaurantSearchIntent give me some restaurants that deliver {food_type} near me 
 RestaurantSearchIntent what places near me deliver {food_type}
 RestaurantSearchIntent what places deliver {food_type} near me
+RestaurantSearchIntent what restaurants deliver {food_type} near me
 RestaurantSearchIntent what are some restaurants that deliver {food_type} near me
+RestaurantSearchIntent what {food_type} restaurants deliver near me?
+RestaurantSearchIntent what {food_type} places deliver near me?
 UserAddressIntent my address is {user_address}
 UserAddressIntent I live at {user_address}
 UserAddressIntent {user_address}
